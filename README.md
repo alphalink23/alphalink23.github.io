@@ -35,6 +35,34 @@ This project was made possible by the following technologies and services.
 
 ## Getting Started
 > TODO - Berisi Tutorial caranya gimana buat bisa ngerun project kita
+Untuk menjalankan proyek desain web orang lain yang telah dipublikasikan di GitHub, Anda biasanya perlu mengikuti langkah-langkah berikut:
+
+1. **Klon Repositori:**
+   Anda perlu mengklon repositori GitHub yang berisi proyek desain web tersebut ke komputer Anda. Gunakan perintah `git clone` untuk mengklon repositori. Contoh:
+
+   ```shell
+   git clone https://github.com/mozaldy/tim8-wdw
+   ```
+
+   Gantilah URL di atas dengan URL repositori yang sesuai.
+
+2. **Buka Direktori Proyek:**
+   Setelah Anda mengklon repositori, pindah ke direktori proyek tim8-wdw
+
+3. **Lihat Instruksi:**
+   Baca README atau instruksi lain yang mungkin ada di repositori untuk memahami cara menjalankan proyek dan persyaratan khusus yang mungkin diperlukan.
+
+4. **Instalasi Ketergantungan (Dependencies):**
+   Proyek web kita ini mungkin nantinya memiliki ketergantungan (dependencies) seperti framework, library, atau paket lain yang perlu diinstalasi. Anda dapat menggunakan manajer paket yang sesuai (seperti npm, yarn, Composer, dll.) untuk menginstal ketergantungan yang diperlukan. Instruksi instalasi biasanya disebutkan dalam README proyek.
+
+5. **Jalankan Proyek:**
+   Setelah menginstal semua ketergantungan yang diperlukan, Anda dapat menjalankan proyek web. Perintah untuk menjalankan proyek mungkin berbeda tergantung pada proyek tersebut. Biasanya, Anda akan menemukan informasi tentang cara menjalankan proyek dalam README atau dokumentasi proyek.
+
+6. **Akses Proyek di Browser:**
+   Setelah Anda menjalankan proyek, Anda dapat membuka web browser dan pergi ke alamat yang sesuai. Biasanya, alamat tersebut adalah `http://localhost:port`, dengan `port` adalah nomor port yang digunakan oleh proyek (biasanya 80 atau 3000, misalnya). Namun, ini juga bisa berbeda tergantung pada proyeknya.
+
+
+
 
 ## Roadmap
 - [ ] Finish README.md
