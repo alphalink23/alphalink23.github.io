@@ -5,7 +5,7 @@
 ```
 Mohammad Rizaldy Ramadhan
 Adrian Mendienta Tumanggor
-Vantrue
+Eugenia Valiant Van True
 ```
 
 ## Daftar Isi
