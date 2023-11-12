@@ -1,0 +1,11 @@
+.hero{
+    background-image: url("assets/hero-bg.jpg");
+    height: 768px!important;
+}
+.section{
+    height: 720px;
+}
+
+.bg-main{
+    background-color: #000623;
+}
