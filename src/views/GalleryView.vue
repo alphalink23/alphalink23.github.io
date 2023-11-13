@@ -1,5 +1,5 @@
 <template>
-  <div class="section bg-main text-white pt-5 content">
+  <div class="section bg-main text-white content">
     <div class="text-center mt-5 w-75 m-auto">
       <h1 class="display-5 w-75 m-auto fw-semibold">Gallery</h1>
       <p class="text-primary fw-bold fs-4">This is about D4 IT A</p>
