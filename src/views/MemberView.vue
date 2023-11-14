@@ -1,7 +1,7 @@
 <template>
   <div class="section bg-main text-white content">
     <div class="text-center mt-5 w-75 m-auto">
-      <h1 class="display-5 w-75 m-auto fw-semibold">About</h1>
+      <h1 class="display-5 w-75 m-auto fw-semibold">Members</h1>
       <p class="text-primary fw-bold fs-4">This is about D4 IT A</p>
 
       <div class="hero-height-filler w-100">
