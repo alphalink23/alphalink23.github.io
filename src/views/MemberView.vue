@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import Modal from "./modal/Popup.vue";
 
 export default {
