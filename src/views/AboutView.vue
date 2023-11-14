@@ -1,3 +1,4 @@
+const data = [[1, "Rizaldi", "../members/1.jpg"], ]
 <template>
   <div class="section bg-main text-white content">
     <div class="text-center mt-5 w-75 m-auto">
@@ -10,32 +11,17 @@
     </div>
     <div class="container">
       <div class="row d-flex">
-        <div class="col-md-6">
-          <img
-            class="d-block w-75"
-            src="https://i.ytimg.com/vi/Tt-6Q5ri2H4/mqdefault.jpg"
-            alt="Class picture"
-          />
-        </div>
-        <div class="col-md-6">
-          <div
-            class="container text-white d-flex flex-column align-items-center"
-          >
-            <h3 style="text-align: center">D4 IT A</h3>
-            <p style="text-align: justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              posuere lobortis libero ac viverra. Proin massa massa, dapibus
-              dictum leo vel, maximus lobortis nunc. Integer ut efficitur metus,
-              non posuere magna. Morbi tempor nibh ex, non feugiat tortor
-              tristique eget. Nullam laoreet nulla et mi dignissim, in fringilla
-              ex placerat. Nulla nec malesuada massa, eu sollicitudin arcu.
-            </p>
-            <button type="button" class="btn btn-light rounded-5 fs-5 fw-bold">
-              Our Members
-            </button>
+              <div class="col-md-6">
+                  <img class="d-block w-75" src="../../assets/gallery/IMG-20231008-WA0039.jpg" alt="Class picture">
+              </div>
+              <div class="col-md-6">
+                  <div class="container text-white d-flex flex-column align-items-center">
+                      <h3 style="text-align: center;">D4 IT A</h3>
+                      <p style="text-align: justify;">Kami adalah kelas D4 Teknik Informatika A angkatan 2023 di Politeknik Elektronika Negeri Surabaya. Kami memiliki anggota 21 mahasiswa dan 9 mahasiswi. Kelas D4 IT A adalah kelas yang sangat pintar ngoding dan rajin mengerjakan tugas. Alhamdulillah di kelas kami tidak ada anggota yang suka ngaret dan bolos. Terbukti kan kami raji dan pintar?? Semoga D4 IT A lulus cumlaude semua aamiin</p>
+                      <button type="button" class="btn btn-light rounded-5 fs-5 fw-bold ">Our Members</button>
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>

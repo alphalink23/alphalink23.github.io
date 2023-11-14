@@ -19,17 +19,9 @@ import NavBar from "./components/navbar.vue";
 *{
   background-color: #000623;
 }
-/* .fade-enter-active,
-.fade-leave-active {
-  transition: opacity 1s;
-}
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-} */
 .slide-enter-active,
 .slide-leave-active{
-  transition: opacity 1s, transform 1s;
+  transition: opacity 0.5s, transform 0.5s;
 }
 
 .slide-enter-from,

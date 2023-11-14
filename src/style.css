@@ -1,9 +1,9 @@
 .hero{
   background-image: url("assets/hero-bg.jpg");
-  height: 768px!important;
+  min-height: 100vh!important;
 }
 .section{
-  height: 720px;
+  min-height:100vh;
 }
 
 .bg-main{
