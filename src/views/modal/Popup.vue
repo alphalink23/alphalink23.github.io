@@ -30,35 +30,5 @@
   };
   </script>
   
-  <style scoped>
-  /* Add styling for the modal */
-  .modal-mask {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   
-  .modal-wrapper {
-    width: 100%;
-    max-width: 600px;
-  }
-  
-  .modal-container {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .modal-header,
-  .modal-body,
-  .modal-footer {
-    margin-bottom: 15px;
-  }
-  </style>
   
