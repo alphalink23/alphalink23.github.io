@@ -37,7 +37,7 @@
                 <h4 class = "mb-5 text-center">The Girls after Religion Class</h4>
             </div>
             <div class="col-md-4">
-                <img class="d-block w-100" src="../../public/assets/gallery/IMG_0431.JPG" alt="picture 7">
+                <img class="d-block w-100" src="../../public/assets/gallery/IMG_0431.jpg" alt="picture 7">
                 <p class = "text-end">26/08/23</p>
                 <h4 class = "mb-5 text-center">PENSCOMP Opening Day</h4>
             </div>
@@ -47,7 +47,7 @@
                 <h4 class = "mb-5 text-center">The Girls</h4>
             </div>
             <div class="col-md-4">
-                <img class="d-block w-100" src="../../public/assets/gallery/7479b236-de22-486c-b645-8e355f7ce8cd.JPEG" alt="picture 9">
+                <img class="d-block w-100" src="../../public/assets/gallery/7479b236-de22-486c-b645-8e355f7ce8cd.jpeg" alt="picture 9">
                 <p class = "text-end">20/08/23</p>
                 <h4 class = "mb-5 text-center">Us after Orientation Week</h4>
             </div>
