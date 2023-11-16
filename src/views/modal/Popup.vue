@@ -1,26 +1,69 @@
-<script>
-</script>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+<template>
+  <div v-if="isModalOpen" class="modal-mask" @click="closeModal">
+    <div class="modal-wrapper">
+      <div class="modal-container">
+        <!-- Close button -->
+        <button class="close-button" @click="closeModal">X</button>
+        <!-- Modal Content -->
+        <h2>Modal Title</h2>
+        <p>Member details and additional information go here...</p>
       </div>
     </div>
   </div>
-</div>
+</template>
+<script>
+export default {
+  props: {
+    isOpen: Boolean,
+    modalTitle: String,
+    modalContent: String,
+  },
+  methods: {
+    closeModal() {
+      this.$emit("close");
+    },
+  },
+};
+</script>
+<style scoped>
+.modal-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-wrapper {
+  width: 100%;
+  max-width: 600px;
+}
+
+.modal-container {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  margin-bottom: 15px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #000000; /* Sesuaikan warna teks sesuai kebutuhan */
+}
+</style>
