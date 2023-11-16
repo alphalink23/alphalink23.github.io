@@ -1,8 +1,9 @@
 <template>
-  <div class="container">
+  <h1 class="text-center text-white display-5 w-75 mb-5 m-auto fw-semibold">Members</h1>
+  <div class="container photo">
     <div class="photo-grid">
-      <div v-for="(member, index) in members" :key="index" class="col-sm-2 mx-3 ">
-        <img @click="openModal(member)" :src="member.photoSrc" class="img-fluid rounded-2" alt="...">
+      <div v-for="(member, index) in members" :key="index" class="col-sm-7 mx-3 ">
+        <img @click="openModal(member)" :src="member.photoSrc" class="img-fluid rounded-2" style="width: 221px;" alt="...">
         <h3 class="card-title">{{ member.title }}</h3>
         <h5 class="card-title">{{ member.subtitle }}</h5>
         <p class="card-number">{{ member.number }}</p>
@@ -15,8 +16,8 @@
 </template>
 
 <script>
-import Modal from "./modal/Popup.vue"; 
-import membersData from "../data/Data.json"; 
+import Modal from "./modal/Popup.vue";
+import membersData from "../data/Data.json";
 
 export default {
   data() {
@@ -44,9 +45,15 @@ export default {
 </script>
 
 <style scoped>
+.photo {
+  color: white;
+}
+
 .photo-grid {
+  margin-left: 5%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 10px; /* Sesuaikan jarak antar foto sesuai kebutuhan */
+  gap: 20px;
+  /* Sesuaikan jarak antar foto sesuai kebutuhan */
 }
 </style>
