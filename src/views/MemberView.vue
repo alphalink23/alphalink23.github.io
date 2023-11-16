@@ -1,7 +1,7 @@
 <template>
-  <div class="section bg-main text-white content">
+  <div class="container">
     <div class="photo-grid">
-      <div v-for="(member, index) in members" :key="index" class="col-sm-2">
+      <div v-for="(member, index) in members" :key="index" class="col-sm-2 mx-3 ">
         <img @click="openModal(member)" :src="member.photoSrc" class="img-fluid rounded-2" alt="...">
         <h3 class="card-title">{{ member.title }}</h3>
         <h5 class="card-title">{{ member.subtitle }}</h5>
