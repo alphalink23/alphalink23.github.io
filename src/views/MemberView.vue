@@ -2,11 +2,11 @@
   <h1 class="text-center text-white display-5 w-75 mb-5 m-auto fw-semibold">Members</h1>
   <div class="container photo">
     <div class="photo-grid">
-      <div v-for="(member, index) in members" :key="index" class="col-sm-7 mx-3 ">
-        <img @click="openModal(member)" :src="member.photoSrc" class="img-fluid rounded-2" style="width: 221px;" alt="...">
+      <div v-for="(member, index) in members" :key="index" class="col-sm-8 mx-3 ">
+        <img @click="openModal(member)" :src="member.photoSrc" class="img-fluid rounded-2" style="width: 221px; max-height: 204px;" alt="...">
+        <p class="card-title">{{ member.number }}</p>
         <h3 class="card-title">{{ member.title }}</h3>
-        <h5 class="card-title">{{ member.subtitle }}</h5>
-        <p class="card-number">{{ member.number }}</p>
+        <h5 class="card-number">{{ member.subtitle }}</h5>
       </div>
     </div>
 

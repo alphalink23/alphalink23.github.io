@@ -1,69 +1,81 @@
 <template>
-  <div v-if="isModalOpen" class="modal-mask" @click="closeModal">
-    <div class="modal-wrapper">
-      <div class="modal-container">
-        <!-- Close button -->
-        <button class="close-button" @click="closeModal">X</button>
-        <!-- Modal Content -->
-        <h2>Modal Title</h2>
-        <p>Member details and additional information go here...</p>
+  <div class="modal" :class="{ 'is-active': isOpen }">
+    <div class="modal-background" @click="closeModal"></div>
+    <div class="modal-content">
+      <div class="box">
+        <h1 class="title">{{ modalTitle }}</h1>
+        <p>{{ modalContent }}</p>
       </div>
     </div>
+    <button class="modal-close is-large" aria-label="close" @click="closeModal"></button>
   </div>
 </template>
+
 <script>
 export default {
   props: {
-    isOpen: Boolean,
-    modalTitle: String,
-    modalContent: String,
+    isOpen: {
+      type: Boolean,
+      required: true,
+    },
+    modalTitle: {
+      type: String,
+      required: true,
+    },
+    modalContent: {
+      type: String,
+      required: true,
+    },
   },
   methods: {
     closeModal() {
-      this.$emit("close");
+      this.$emit('close');
     },
   },
 };
 </script>
+
 <style scoped>
-.modal-mask {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+h1 {
+  color: black;
+}
+p {
+  color: black;
+}
+.modal {
+  display: none;
+}
+
+.modal.is-active {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.modal-wrapper {
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modal-content {
+  background-color: #fff;
+  max-width: 400px;
   width: 100%;
-  max-width: 600px;
-}
-
-.modal-container {
-  position: relative;
-  background: white;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.modal-header,
-.modal-body,
-.modal-footer {
-  margin-bottom: 15px;
-}
-
-.close-button {
+.modal-close {
+  background: none;
+  border: none;
   position: absolute;
   top: 10px;
   right: 10px;
-  border: none;
   cursor: pointer;
-  font-size: 20px;
-  font-weight: bolder;
-  color: #000000; /* Sesuaikan warna teks sesuai kebutuhan */
 }
 </style>
