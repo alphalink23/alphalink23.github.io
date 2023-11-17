@@ -11,7 +11,7 @@
     </div>
 
     <!-- Modal Markup -->
-    <Modal :isOpen="isModalOpen" @close="closeModal" :modalTitle="modalTitle" :modalContent="modalContent" />
+    <Modal :isOpen="isModalOpen" @close="closeModal" :modalTitle="modalTitle" :modalContent="modalContent" :photoSrc="modalPhotoSrc" />
   </div>
 </template>
 
@@ -25,14 +25,16 @@ export default {
       isModalOpen: false,
       modalTitle: "",
       modalContent: "",
+      modalPhotoSrc: "", 
       members: membersData,
     };
   },
   methods: {
     openModal(member) {
       this.isModalOpen = true;
-      this.modalTitle = "Modal Title";
-      this.modalContent = `Member details for ${member.title}: ${member.subtitle}`;
+      this.modalTitle = member.title;
+      this.modalContent = `${member.subtitle}`;
+      this.modalPhotoSrc = member.photoSrc;
     },
     closeModal() {
       this.isModalOpen = false;

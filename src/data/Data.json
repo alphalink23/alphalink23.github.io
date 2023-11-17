@@ -18,13 +18,15 @@
       "photoSrc": "../../assets/foto members/ita3.jpeg",
       "title": "Anggora",
       "subtitle": "Muhammad Rafi Rizaldi",
+      "nrp": "3123600001",
       "number": 1
     },
     {
       "id": 4,
       "photoSrc": "../../assets/foto members/ita4.jpeg",
       "title": "Anggesele",
-      "subtitle": "Muhammad Rafi Rizaldi",
+      "subtitle": "",
+      "nrp": "3123600002",
       "number": 1
     },
     {
@@ -32,6 +34,7 @@
       "photoSrc": "../../assets/foto members/ita5.jpeg",
       "title": "Ketua",
       "subtitle": "Muhammad Rafi Rizaldi",
+      "nrp": "3123600003",
       "number": 1
     },
     {
