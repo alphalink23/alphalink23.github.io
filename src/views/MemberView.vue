@@ -5,8 +5,8 @@
       <div v-for="(member, index) in members" :key="index" class="col-sm-8 mx-3 ">
         <img @click="openModal(member)" :src="member.photoSrc" class="img-fluid rounded-2" style="width: 221px; max-height: 204px;" alt="...">
         <p class="card-title">{{ member.number }}</p>
-        <h3 class="card-title">{{ member.title }}</h3>
-        <h5 class="card-number">{{ member.subtitle }}</h5>
+        <h4 class="card-title">{{ member.subtitle }}</h4>
+        <h5 class="card-number">{{ member.title }}</h5>
       </div>
     </div>
 

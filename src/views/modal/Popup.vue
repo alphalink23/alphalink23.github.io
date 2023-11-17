@@ -6,8 +6,18 @@
         <button class="modal-close is-large" aria-label="close" @click="closeModal"></button>
         <img v-if="photoSrc" :src="photoSrc" alt="Member Photo" class="modal-photo rounded-2">
         <div>
-          <p>{{ modalTitle }}:</p>
-          <h2 class="title">{{ modalContent }}</h2>
+          <p>Nama:</p>
+          <h1 class="title">{{ modalContent }}</h1>
+          <p>NRP:</p>
+          <h1 class="title">{{ modalContent }}</h1>
+          <p>Tempat, Tanggal Lahir :</p>
+          <h1 class="title">{{ modalContent }}</h1>
+          <p>No. HP:</p>
+          <h1 class="title">{{ modalContent }}</h1>
+          <p>Asal:</p>
+          <h1 class="title">{{ modalContent }}</h1>
+          <p>Instagram:</p>
+          <h1 class="title">{{ modalContent }}</h1>
         </div>
       </div>
     </div>
@@ -43,12 +53,18 @@ export default {
 </script>
 
 <style scoped>
-h2 {
+h1 {
   color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 p {
+  font-weight: 500;
+  font-size: small;
   color: black;
+  margin-bottom: 0%;
+
 }
 
 .box {
@@ -83,7 +99,7 @@ p {
 
 .modal-content {
   background-color: #fff;
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   padding: 20px;
   border-radius: 5px;
