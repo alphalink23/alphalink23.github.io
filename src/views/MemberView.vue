@@ -54,6 +54,5 @@ export default {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  /* Sesuaikan jarak antar foto sesuai kebutuhan */
 }
 </style>
