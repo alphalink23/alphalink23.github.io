@@ -12,7 +12,7 @@ import galleryData from "../data/galleryData.js";
         <div class="col-md-4" v-for="item in galleryData" :key="index">
           <img
             class="d-block w-100 rounded"
-            :src="`src/assets/gallery/${item.imgPath}`"
+            :src="`${item.imgPath}`"
           />
           <p class="text-end">{{ item.date }}</p>
           <h4 class="mb-5 text-center">{{ item.title }}</h4>

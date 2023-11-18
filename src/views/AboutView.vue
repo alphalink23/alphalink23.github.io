@@ -11,7 +11,7 @@
     <div class="container">
       <div class="row d-flex">
               <div class="col-md-6">
-                  <img class="d-block w-75" :src="`src/assets/gallery/3.jpg`" alt="Class picture">
+                  <img class="d-block w-75" :src="image" alt="Class picture">
               </div>
               <div class="col-md-6">
                   <div class="container text-white d-flex flex-column align-items-center">
@@ -24,3 +24,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+  import image from "/gallery/1.jpg"
+</script>

@@ -30,7 +30,7 @@ export default {
 <template>
   <swiper :navigation="true" :modules="modules" class="mySwiper">
     <SwiperSlide v-for="item in galleryData">
-      <img class="rounded" :src="`src/assets/gallery/${item.imgPath}`" />
+      <img class="rounded" :src="item.imgPath" />
       <p class="mt-5 text-white">{{ item.date }}</p>
       <h4 class="text-white">{{ item.title }}</h4>
     </SwiperSlide>
