@@ -18,7 +18,7 @@ Eugenia Valiant Van True
 
 
 ## About
-> TODO
+This is a profile website for the of D4 Computer Science class of 2023
 
 ## Built With
 This project was made possible by the following technologies and services.
@@ -30,8 +30,7 @@ This project was made possible by the following technologies and services.
   * [![JavaScript]][js-url]
 * Framework/Library
   * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-  * [![JQuery][JQuery.com]][JQuery-url]
-  * [![React][React.js]][React-url] (kemungkinan gak jadi)
+  * [![Vue][vue.js]][vue-url]
 
 ## Getting Started
 Untuk menjalankan proyek desain web kelompok 8 yang telah dipublikasikan di GitHub, Anda perlu mengikuti langkah-langkah berikut:
@@ -79,12 +78,10 @@ Untuk menjalankan proyek desain web kelompok 8 yang telah dipublikasikan di GitH
   - [ ] JavaScript
 
 <!-- Links and images. -->
-[React-url]: https://reactjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[vue-url]: https://vuejs.org/
+[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
 [Figma.com]: https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white
 [Figma-url]: https://figma.com 
 [HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white

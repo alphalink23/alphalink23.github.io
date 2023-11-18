@@ -9,3 +9,7 @@
 .bg-main{
     background-color: #000623;
 }
+
+html{
+    overflow-x: hidden;
+}
