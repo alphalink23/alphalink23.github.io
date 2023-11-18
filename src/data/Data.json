@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "photoSrc": "../../assets/foto members/ita3.jpeg",
+      "photoSrc": "../assets/foto members/ita3.jpeg",
       "title": "Anggota",
       "subtitle": "Taza",
       "nrp": "3123600003",
