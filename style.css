@@ -10,6 +10,19 @@
     background-color: #000623;
 }
 
+<<<<<<< HEAD
 html{
     overflow-x: hidden;
 }
+=======
+img {
+    width: 221px;
+    max-height: 295px;
+  }
+
+  .card-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+>>>>>>> adrian
