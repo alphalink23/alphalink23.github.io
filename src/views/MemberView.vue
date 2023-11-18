@@ -28,7 +28,6 @@
 export default {
   data() {
     return {
-      // Dictionary-based data for members
       members: [
         { name: 'Muhammad Rafi Rizaldi', jabatan: 'Komting', nrp: 1, path: "../../public/assets/members/aldi.jpg"},
         { name: 'Bruhus', jabatan: 'Budak', nrp: 1, path: "../../public/assets/members/siapa.jpg"},
