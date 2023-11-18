@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "photoSrc": "../../assets/foto members/ita1.jpeg",
+      "photoSrc": "members/ita1.jpeg",
       "title": "Ketua",
       "subtitle": "Muhammad Rafi Rizaldi",
       "NRP": "3123600001",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "photoSrc": "../../assets/foto members/ita2.jpeg",
+      "photoSrc": "members/ita2.jpeg",
       "title": "Anggota",
       "subtitle": "Lintang",
       "NRP": "3123600002",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "photoSrc": "../assets/foto members/ita3.jpeg",
+      "photoSrc": "members/ita3.jpeg",
       "title": "Anggota",
       "subtitle": "Taza",
       "nrp": "3123600003",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "photoSrc": "../../assets/foto members/ita4.jpeg",
+      "photoSrc": "members/ita4.jpeg",
       "title": "Anggota",
       "subtitle": "Muhammad Fajar shidiq",
       "nrp": "3123600004",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "photoSrc": "../../assets/foto members/ita5.jpeg",
+      "photoSrc": "members/ita5.jpeg",
       "title": "Raja Himit",
       "subtitle": "Ivan Rahmat Prakasa",
       "nrp": "3123600005",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "photoSrc": "../../assets/foto members/ita6.jpeg",
+      "photoSrc": "members/ita6.jpeg",
       "title": "Anggota",
       "subtitle": "Elsa",
       "NRP": "3123600006",
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "photoSrc": "../../assets/foto members/ita7.jpeg",
+      "photoSrc": "members/ita7.jpeg",
       "title": "Raja Petot",
       "subtitle": "Rifki",
       "NRP": "3123600007",
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "photoSrc": "../../assets/foto members/ita8.jpeg",
+      "photoSrc": "members/ita8.jpeg",
       "title": "Anggota",
       "subtitle": "Lala",
       "NRP": "3123600008",
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "photoSrc": "../../assets/foto members/ita9.jpeg",
+      "photoSrc": "members/ita9.jpeg",
       "title": "Wakil Ketua",
       "subtitle": "Kansa Adeneva",
       "NRP": "3123600009",
@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "photoSrc": "../../assets/foto members/ita10.jpeg",
+      "photoSrc": "members/ita10.jpeg",
       "title": "Agus",
       "subtitle": "Yofi Yudistian",
       "NRP": "3123600010",
@@ -82,7 +82,7 @@
     },
     {
       "id": 11,
-      "photoSrc": "../../assets/foto members/ita11.jpeg",
+      "photoSrc": "members/ita11.jpeg",
       "title": "KING CUKUP",
       "subtitle": "Muhammad Rizaldi Ramadhan",
       "NRP": "3123600011",
@@ -90,7 +90,7 @@
     },
     {
       "id": 12,
-      "photoSrc": "../../assets/foto members/ita12.jpeg",
+      "photoSrc": "members/ita12.jpeg",
       "title": "Anggota",
       "subtitle": "Adrian Mendienta Tumanggor",
       "NRP": "3123600012",
@@ -98,7 +98,7 @@
     },
     {
       "id": 13,
-      "photoSrc": "../../assets/foto members/ita13.jpeg",
+      "photoSrc": "members/ita13.jpeg",
       "title": "Anggota",
       "subtitle": "Nanda Ahmad Zidan",
       "NRP": "3123600013",
@@ -106,7 +106,7 @@
     },
     {
       "id": 14,
-      "photoSrc": "../../assets/foto members/ita14.jpeg",
+      "photoSrc": "members/ita14.jpeg",
       "title": "Anggota",
       "subtitle": "Shalsabila",
       "NRP": "3123600014",
@@ -114,7 +114,7 @@
     },
     {
       "id": 15,
-      "photoSrc": "../../assets/foto members/ita15.jpeg",
+      "photoSrc": "members/ita15.jpeg",
       "title": "Anggota",
       "subtitle": "Nayla",
       "NRP": "3123600015",
@@ -122,7 +122,7 @@
     },
     {
       "id": 16,
-      "photoSrc": "../../assets/foto members/ita16.jpeg",
+      "photoSrc": "members/ita16.jpeg",
       "title": "Anggota",
       "subtitle": "Alif",
       "NRP": "3123600016",
@@ -130,7 +130,7 @@
     },
     {
       "id": 17,
-      "photoSrc": "../../assets/foto members/ita17.jpeg",
+      "photoSrc": "members/ita17.jpeg",
       "title": "Anggota",
       "subtitle": "Salma Afifah",
       "NRP": "3123600017",
@@ -138,7 +138,7 @@
     },
     {
       "id": 18,
-      "photoSrc": "../../assets/foto members/ita18.jpeg",
+      "photoSrc": "members/ita18.jpeg",
       "title": "Anggota",
       "subtitle": "Van true",
       "NRP": "3123600018",
@@ -146,7 +146,7 @@
     },
     {
       "id": 19,
-      "photoSrc": "../../assets/foto members/ita19.jpeg",
+      "photoSrc": "members/ita19.jpeg",
       "title": "",
       "subtitle": "Raihan Malano Alrasyid",
       "NRP": "3123600019",
@@ -154,7 +154,7 @@
     },
     {
       "id": 20,
-      "photoSrc": "../../assets/foto members/ita20.jpeg",
+      "photoSrc": "members/ita20.jpeg",
       "title": "Cogil",
       "subtitle": "Vemas",
       "NRP": "3123600020",
@@ -162,7 +162,7 @@
     },
     {
       "id": 21,
-      "photoSrc": "../../assets/foto members/ita21.jpeg",
+      "photoSrc": "members/ita21.jpeg",
       "title": "Anggota",
       "subtitle": "Zidan",
       "NRP": "3123600020",
@@ -170,7 +170,7 @@
     },
     {
       "id": 22,
-      "photoSrc": "../../assets/foto members/ita22.jpeg",
+      "photoSrc": "members/ita22.jpeg",
       "title": "Anggota",
       "subtitle": "George Winston",
       "NRP": "3123600022",
@@ -178,7 +178,7 @@
     },
     {
       "id": 23,
-      "photoSrc": "../../assets/foto members/ita23.jpeg",
+      "photoSrc": "members/ita23.jpeg",
       "title": "Anggota",
       "subtitle": "I fell",
       "NRP": "3123600023",
@@ -186,7 +186,7 @@
     },
     {
       "id": 24,
-      "photoSrc": "../../assets/foto members/ita24.jpeg",
+      "photoSrc": "members/ita24.jpeg",
       "title": "MaduraKing",
       "subtitle": "Shafrizal Azis",
       "NRP": "3123600024",
@@ -194,7 +194,7 @@
     },
     {
       "id": 25,
-      "photoSrc": "../../assets/foto members/ita25.jpeg",
+      "photoSrc": "members/ita25.jpeg",
       "title": "Anggota",
       "subtitle": "Mochammad Alif Akbar",
       "NRP": "3123600025",
@@ -202,7 +202,7 @@
     },
     {
       "id": 26,
-      "photoSrc": "../../assets/foto members/ita26.jpeg",
+      "photoSrc": "members/ita26.jpeg",
       "title": "Anggota",
       "subtitle": "Izza",
       "NRP": "3123600026",
@@ -210,7 +210,7 @@
     },
     {
       "id": 27,
-      "photoSrc": "../../assets/foto members/ita27.jpeg",
+      "photoSrc": "members/ita27.jpeg",
       "title": "Komdis",
       "subtitle": "Ghani",
       "NRP": "3123600027",
@@ -218,7 +218,7 @@
     },
     {
       "id": 28,
-      "photoSrc": "../../assets/foto members/ita28.jpeg",
+      "photoSrc": "members/ita28.jpeg",
       "title": "Telkom",
       "subtitle": "Zaki Mubarok",
       "NRP": "3123600028",
@@ -226,7 +226,7 @@
     },
     {
       "id": 29,
-      "photoSrc": "../../assets/foto members/ita29.jpeg",
+      "photoSrc": "members/ita29.jpeg",
       "title": "Anggota",
       "subtitle": "AWP",
       "NRP": "3123600029",
@@ -234,7 +234,7 @@
     },
     {
       "id": 30,
-      "photoSrc": "../../assets/foto members/ita30.jpeg",
+      "photoSrc": "members/ita30.jpeg",
       "title": "Ajudan Himit",
       "subtitle": "Aldino Matasik",
       "NRP": "3123600030",

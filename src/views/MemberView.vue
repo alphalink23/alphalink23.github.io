@@ -1,7 +1,7 @@
 <template>
   <div class="section bg-main text-white content">
     <div class="text-center mt-5 w-75 m-auto">
-      <h1 class="display-5 w-75 m-auto fw-semibold">Members</h1>
+      <h1 class="display-5 w-75 m-auto fw-semibold mb-5">Members</h1>
     </div>
 
   <div class="container photo">
