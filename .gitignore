@@ -22,3 +22,7 @@ dist
 *.njsproj
 *.sln
 *.sw?
+
+.github
+.vscode
+
