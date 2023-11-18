@@ -1,3 +1,6 @@
+<script setup>
+  import GallerySlide from "../components/GallerySlide.vue"
+</script>
 <template>
   <div class="content">
     <div class="hero text-white pt-3">
@@ -19,57 +22,11 @@
     <div class="section bg-primary text-center" id="gallery">
       <h1 class="pt-5 display-1 w-75 m-auto text-white fw-semibold">Gallery</h1>
       <p class="text-white-50 fw-bold fs-4 mb-5">Kenangan-kenangan Kami.</p>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide w-75 mx-auto"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-50 mx-auto"
-              src="https://www.readersdigest.com.au/wp-content/uploads/2020/12/cat-lying-on-back-British-mackerel-shutterstock-e1573490045672-scaled.jpg"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>10 November 2023</h5>
-              <p>Kucing lucu banget anjay</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-50"
-              src="https://live.staticflickr.com/8520/8633246824_de700ddef5.jpg"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-50"
-              src="https://static.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg"
-              alt="Third slide"
-            />
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-      </div>
+      <!-- Gallery -->
+      <GallerySlide />
       <button
         type="button"
-        class="btn btn-dark bg-main text-white rounded-5 mt-5 fs-5 fw-bold"
+        class="btn btn-dark bg-main text-white rounded-5 mt-5 mb-5 fs-5 fw-bold"
       >
         Find More
       </button>

@@ -1,4 +1,3 @@
-const data = [[1, "Rizaldi", "../members/1.jpg"], ]
 <template>
   <div class="section bg-main text-white content">
     <div class="text-center mt-5 w-75 m-auto">
@@ -12,7 +11,7 @@ const data = [[1, "Rizaldi", "../members/1.jpg"], ]
     <div class="container">
       <div class="row d-flex">
               <div class="col-md-6">
-                  <img class="d-block w-75" src="../../public/assets/gallery/IMG-20231008-WA0039.jpg" alt="Class picture">
+                  <img class="d-block w-75" :src="`src/assets/gallery/3.jpg`" alt="Class picture">
               </div>
               <div class="col-md-6">
                   <div class="container text-white d-flex flex-column align-items-center">

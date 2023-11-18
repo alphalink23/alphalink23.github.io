@@ -1,5 +1,5 @@
 .hero{
-  background-image: url("/assets/hero-bg.jpg");
+  background-image: url("./assets/hero-bg.jpg");
   min-height: 100vh!important;
 }
 .section{
@@ -10,6 +10,20 @@
   background-color: #000623;
 }
 
-html{
-  overflow-x: hidden;
+.swiper{
+  width: 80vw;
+  overflow: visible;
+}
+
+.swiper-slide img{
+  width: 80%;
+  transition: 0.5s;
+}
+
+.swiper-slide img:hover{
+  transform: scale(1.05);
+}
+
+:root {
+  --swiper-theme-color: #ffffff!important;
 }

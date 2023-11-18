@@ -52,6 +52,19 @@ export default {
       modalContent: "",
       modalPhotoSrc: "", 
       members: membersData,
+
+      members: [
+        { name: 'Muhammad Rafi Rizaldi', jabatan: 'Komting', nrp: 1, path: "../../public/assets/members/aldi.jpg"},
+        { name: 'Bruhus', jabatan: 'Budak', nrp: 1, path: "../../public/assets/members/siapa.jpg"},
+        { name: 'Bob Smith', jabatan: 'Budak', nrp: 2, path: "../../public/assets/members/"},
+        { name: 'Alice Johnson', jabatan: 'Budak', nrp: 3, path: "../../public/assets/members/"},
+        { name: 'Charlie Brown', jabatan: 'Budak', nrp: 4, path: "../../public/assets/members/"},
+        { name: 'David Wilson', jabatan: 'Budak', nrp: 5, path: "../../public/assets/members/"},
+        { name: 'Eva Miller', jabatan: 'Budak', nrp: 1, path: "../../public/assets/members/"},
+        { name: 'Frank Robinson', jabatan: 'Budak', nrp: 1, path: "../../public/assets/members/"},
+        { name: 'Grace Davis', jabatan: 'Budak', nrp: 1, path: "../../public/assets/members/"},
+        { name: 'Henry Carter', jabatan: 'Budak', nrp: 1, path: "../../public/assets/members/"},
+      ]
     };
   },
   methods: {
