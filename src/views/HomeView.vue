@@ -1,5 +1,6 @@
 <script setup>
-  import GallerySlide from "../components/GallerySlide.vue"
+import GallerySlide from "../components/GallerySlide.vue";
+import MemberSlide from "../components/MemberSlide.vue";
 </script>
 <template>
   <div class="content">
@@ -24,86 +25,33 @@
       <p class="text-white-50 fw-bold fs-4 mb-5">Kenangan-kenangan Kami.</p>
       <!-- Gallery -->
       <GallerySlide />
-      <button
-        type="button"
+
+      <RouterLink
+        to="/gallery"
         class="btn btn-dark bg-main text-white rounded-5 mt-5 mb-5 fs-5 fw-bold"
+        >More Pictures</RouterLink
       >
-        Find More
-      </button>
     </div>
     <div class="section bg-main text-center">
       <h1 class="pt-5 display-1 w-75 m-auto text-white fw-semibold">Members</h1>
       <p class="text-white-50 fw-bold fs-4 mb-5">
         d4ita > (nct && itzy && twice && bts) = True.
       </p>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide w-75 mx-auto"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-50 mx-auto"
-              src="https://www.readersdigest.com.au/wp-content/uploads/2020/12/cat-lying-on-back-British-mackerel-shutterstock-e1573490045672-scaled.jpg"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>10 November 2023</h5>
-              <p>Kucing lucu banget anjay</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-50"
-              src="https://live.staticflickr.com/8520/8633246824_de700ddef5.jpg"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-50"
-              src="https://static.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg"
-              alt="Third slide"
-            />
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-      </div>
-      <button
-        type="button"
+
+      <MemberSlide />
+
+      <RouterLink
+        to="/members"
+        active-class="fw-bold"
         class="btn btn-primary text-white rounded-5 mt-5 fs-5 fw-bold"
-      >
-        Find More
-      </button>
+        >More Members</RouterLink>
     </div>
     <div class="bg-main text-center">
       <h1 class="pt-5 display-1 w-75 m-auto text-white fw-semibold">About</h1>
-      <p class="text-white-50 fw-bold fs-4 mb-5">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
-        laudantium!.
-      </p>
+      <p class="text-white-50 fw-bold fs-4 mb-5">This is about D4 IT A</p>
       <div class="container mx-auto row d-flex">
         <div class="col-md-6">
-          <img
-            class="d-block w-75"
-            src="https://i.ytimg.com/vi/Tt-6Q5ri2H4/mqdefault.jpg"
-            alt="Class picture"
-          />
+          <img class="d-block w-75" src="gallery/3.jpg" alt="Class picture" />
         </div>
         <div class="col-md-6 mb-5 pb-5">
           <div
@@ -111,16 +59,20 @@
           >
             <h3 style="text-align: center">D4 IT A</h3>
             <p style="text-align: justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              posuere lobortis libero ac viverra. Proin massa massa, dapibus
-              dictum leo vel, maximus lobortis nunc. Integer ut efficitur metus,
-              non posuere magna. Morbi tempor nibh ex, non feugiat tortor
-              tristique eget. Nullam laoreet nulla et mi dignissim, in fringilla
-              ex placerat. Nulla nec malesuada massa, eu sollicitudin arcu.
+              Kami adalah kelas D4 Teknik Informatika A angkatan 2023 di
+              Politeknik Elektronika Negeri Surabaya. Kami memiliki anggota 21
+              mahasiswa dan 9 mahasiswi. Kelas D4 IT A adalah kelas yang sangat
+              pintar ngoding dan rajin mengerjakan tugas. Alhamdulillah di kelas
+              kami tidak ada anggota yang suka ngaret dan bolos. Terbukti kan
+              kami raji dan pintar?? Semoga D4 IT A lulus cumlaude semua aamiin
             </p>
-            <button type="button" class="btn btn-light rounded-5 fs-5 fw-bold">
-              Our Members
-            </button>
+
+            <RouterLink
+              to="/about"
+              active-class="fw-bold"
+              class="btn btn-light rounded-5 mt-5 fs-5 fw-bold"
+              >More about us</RouterLink
+            >
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <script setup>
-import galleryData from "../data/galleryData.js";
+import galleryData from "../data/galleryData.json";
 </script>
 
 <template>
@@ -8,6 +8,7 @@ import galleryData from "../data/galleryData.js";
       <h1 class="display-5 w-75 m-auto mb-5 fw-semibold">Gallery</h1>
     </div>
     <div class="container">
+      <GallerySlide />
       <div class="row d-flex justify-content-center">
         <div class="col-md-4" v-for="item in galleryData" :key="index">
           <img

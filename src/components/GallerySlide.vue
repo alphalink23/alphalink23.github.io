@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper/modules";
 
-import galleryData from "../data/galleryData.js";
+import galleryData from "../data/galleryData.json";
 
 export default {
   components: {
@@ -27,6 +27,7 @@ export default {
   },
 };
 </script>
+
 <template>
   <swiper :navigation="true" :modules="modules" class="mySwiper">
     <SwiperSlide v-for="item in galleryData">
@@ -36,3 +37,18 @@ export default {
     </SwiperSlide>
   </swiper>
 </template>
+
+<style scoped>
+.swiper{
+  width: 80vw;
+}
+
+.swiper-slide img{
+  width: 80%;
+  transition: 0.5s;
+}
+
+.swiper-slide img:hover{
+  transform: scale(1.05);
+}
+</style>

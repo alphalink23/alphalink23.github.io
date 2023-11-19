@@ -22,7 +22,7 @@
 
 <script>
 import Modal from "./modal/Popup.vue";
-import membersData from "../data/Data.json";
+import membersData from "../data/membersData.json";
 
 export default {
   data() {

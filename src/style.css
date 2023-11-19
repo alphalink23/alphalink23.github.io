@@ -11,20 +11,24 @@
   background-color: #000623;
 }
 
-.swiper{
-  width: 80vw;
-  overflow: visible;
-}
-
-.swiper-slide img{
-  width: 80%;
-  transition: 0.5s;
-}
-
-.swiper-slide img:hover{
-  transform: scale(1.05);
-}
-
 :root {
   --swiper-theme-color: #ffffff!important;
+  --swiper-pagination-bullet-inactive-color: #fff!important;
+  --swiper-pagination-color: #0d6efd!important;
+  --swiper-pagination-bullet-inactive-opacity: 0.5;
+
+}
+
+.swiper-pagination{
+  margin-top: 20px!important;
+  position: relative!important;
+}
+
+.nav-title{
+  letter-spacing: 3px;
+  transition: 1s;
+}
+
+.nav-title:hover{
+  letter-spacing: 5px;
 }

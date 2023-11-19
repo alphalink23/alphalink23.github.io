@@ -62,6 +62,14 @@ Untuk menjalankan proyek desain web kelompok 8 yang telah dipublikasikan di GitH
 5. **Akses Proyek di Browser:**
    Setelah Anda menjalankan proyek, Anda dapat membuka web browser dan pergi ke alamat yang sesuai. Biasanya, alamat tersebut adalah `http://localhost:port`, dengan `port` adalah nomor port yang digunakan oleh proyek (biasanya 80 atau 3000, misalnya). Namun, ini juga bisa berbeda tergantung pada proyeknya.
 
+6. **EXTRA: Deploy static hosting ke branch /production**
+    ```shell
+    npm run build
+    git add dist -f
+    git commit -m "deploy"
+    git subtree push --prefix dist origin production
+    ```
+
 ## Roadmap
 - [x] Finish README.md
   - [x] Project name
@@ -90,7 +98,3 @@ Untuk menjalankan proyek desain web kelompok 8 yang telah dipublikasikan di GitH
 [css-url]: https://w3schools.com/css
 [JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [js-url]: https://w3schools.com/js
-
-git add dist -f
-git commit -m "plz"
-git subtree push --prefix dist origin production

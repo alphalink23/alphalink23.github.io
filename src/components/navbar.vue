@@ -1,11 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg w-100">
     <div class="container w-75">
-      <a
-        class="navbar-brand bg-primary rounded-circle px-2 fs-1 fw-bold text-white"
-        href="#"
-        >ITA</a
-      >
+      <RouterLink
+              to="/"
+              class="text-white h2 text-decoration-none letter nav-title"
+              >ALPHALINK</RouterLink
+            >
+      
       <button
         class="navbar-toggler"
         type="button"
