@@ -4,7 +4,7 @@
       <h1 class="display-5 w-75 m-auto fw-semibold mb-5">Members</h1>
     </div>
 
-  <div class="container photo">
+  <div class="container fs-3 fw-bold">
     <div class="photo-grid">
       <div v-for="(member, index) in members" :key="index" class="col-sm-8 mx-3 ">
         <img @click="openModal(member)" :src="member.photoSrc" class="img-fluid rounded-2" style="width: 221px; max-height: 204px;" alt="...">
@@ -15,7 +15,7 @@
     </div>
 
     <!-- Modal Markup -->
-    <Modal :isOpen="isModalOpen" @close="closeModal" :modalTitle="modalTitle" :modalContent="modalContent" :photoSrc="modalPhotoSrc" />
+    <Modal :isOpen="isModalOpen" @close="closeModal" :modalTitle="modalTitle" :modalContent="modalContent" :modalNrp="modalNrp" :photoSrc="modalPhotoSrc" />
   </div>
   </div>
 </template>
@@ -30,6 +30,7 @@ export default {
       isModalOpen: false,
       modalTitle: "",
       modalContent: "",
+      modalNrp: "",
       modalPhotoSrc: "", 
       members: membersData,
     };
@@ -38,6 +39,7 @@ export default {
     openModal(member) {
       this.isModalOpen = true;
       this.modalTitle = member.title;
+      this.modalNrp = member.nrp;
       this.modalContent = `${member.subtitle}`;
       this.modalPhotoSrc = member.photoSrc;
     },
