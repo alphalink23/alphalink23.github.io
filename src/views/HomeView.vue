@@ -1,6 +1,8 @@
 <script setup>
 import GallerySlide from "../components/GallerySlide.vue";
 import MemberSlide from "../components/MemberSlide.vue";
+import image from "/gallery/3.jpg";
+
 </script>
 <template>
   <div class="content">
@@ -51,7 +53,7 @@ import MemberSlide from "../components/MemberSlide.vue";
       <p class="text-white-50 fw-bold fs-4 mb-5">This is about D4 IT A</p>
       <div class="container mx-auto row d-flex">
         <div class="col-md-6">
-          <img class="d-block w-75" src="gallery/3.jpg" alt="Class picture" />
+          <img class="d-block w-75" :src="image" alt="Class picture" />
         </div>
         <div class="col-md-6 mb-5 pb-5">
           <div
