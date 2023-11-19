@@ -4,7 +4,7 @@
       "photoSrc": "members/ita1.jpeg",
       "title": "Ketua",
       "subtitle": "Muhammad Rafi Rizaldi",
-      "NRP": "3123600001",
+      "nrp": "3123600001", 
       "born": "",
       "number": 1
     },
@@ -13,7 +13,7 @@
       "photoSrc": "members/ita2.jpeg",
       "title": "Anggota",
       "subtitle": "Lintang",
-      "NRP": "3123600002",
+      "nrp": "3123600002",
       "number": 2
     },
     {

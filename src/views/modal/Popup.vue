@@ -9,9 +9,9 @@
           <p>Nama:</p>
           <h1 class="title">{{ modalContent }}</h1>
           <p>NRP:</p>
-          <h1 class="title">{{ modalContent }}</h1>
+          <h1 class="title">{{ modalNrp }}</h1>
           <p>Tempat, Tanggal Lahir :</p>
-          <h1 class="title">{{ modalContent }}</h1>
+          <h1 class="title">{{ modalTitle }}</h1>
           <p>No. HP:</p>
           <h1 class="title">{{ modalContent }}</h1>
           <p>Asal:</p>
@@ -39,6 +39,10 @@ export default {
       type: Object,
       required: true,
     },
+    modalNrp: {
+      type: String,
+      required: true,
+    },
     photoSrc: {
       type: String,
       default: "",
@@ -55,12 +59,12 @@ export default {
 <style scoped>
 h1 {
   color: black;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 p {
-  font-weight: 500;
+  font-weight: 600;
   font-size: small;
   color: black;
   margin-bottom: 0%;
@@ -68,13 +72,15 @@ p {
 }
 
 .box {
-  display: grid ;
-  grid-template-columns: auto 1fr; /* Satu kolom untuk tombol, satu kolom untuk konten */
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* Satu kolom untuk tombol, satu kolom untuk konten */
   grid-gap: 20px;
 }
+
 .modal-photo {
-  max-width: 100%;
-  height: auto;
+  width: 400px;
+  height: 533px;
   margin-bottom: 10px;
 }
 
@@ -98,13 +104,10 @@ p {
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: rgb(225, 223, 223);
   max-width: 700px;
-  width: 100%;
   padding: 20px;
-  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: relative;
 }
 
 .modal-close {
