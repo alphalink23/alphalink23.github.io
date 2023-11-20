@@ -32,3 +32,15 @@
 .nav-title:hover{
   letter-spacing: 5px;
 }
+
+img{
+  transition: 0.5s;
+  border: 2px solid ;
+
+}
+
+img:hover{
+  transform: scale(1.05);
+  border: 2px solid white;
+
+}

@@ -40,15 +40,19 @@ export default {
 
 <style scoped>
 .swiper{
-  width: 80vw;
+  width: 70vw;
 }
 
-.swiper-slide img{
+img{
+  margin: 30px 0;
   width: 80%;
   transition: 0.5s;
+  border: 2px solid #0d6efd;
 }
 
-.swiper-slide img:hover{
+img:hover{
   transform: scale(1.05);
+  border: 2px solid white;
+
 }
 </style>
