@@ -2,11 +2,11 @@
   <nav class="navbar navbar-expand-lg w-100">
     <div class="container w-75">
       <RouterLink
-              to="/"
-              class="text-white h2 text-decoration-none letter nav-title"
-              >ALPHALINK</RouterLink
-            >
-      
+        to="/"
+        class="text-white h2 text-decoration-none letter nav-title"
+        >ALPHALINK</RouterLink
+      >
+
       <button
         class="navbar-toggler"
         type="button"
@@ -22,7 +22,7 @@
         class="collapse navbar-collapse w justify-content-end"
         id="navbarNav"
       >
-        <ul class="navbar-nav justify-content-evenly w-75 fw-light fs-4">
+        <ul class="navbar-nav justify-content-evenly w-75 fw-light fs-5">
           <li class="nav-item">
             <RouterLink
               to="/"
@@ -53,6 +53,14 @@
               active-class="fw-bold"
               class="nav-link text-white"
               >About</RouterLink
+            >
+          </li>
+          <li class="nav-item">
+            <RouterLink
+              to="/jadwal"
+              active-class="fw-bold"
+              class="nav-link text-white"
+              >Jadwal</RouterLink
             >
           </li>
         </ul>
