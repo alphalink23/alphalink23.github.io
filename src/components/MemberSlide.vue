@@ -20,6 +20,22 @@ export default {
     Swiper,
     SwiperSlide,
   },
+  data() {
+    return {
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    };
+  },
   setup() {
     return {
       modules: [Navigation, Pagination],
@@ -34,13 +50,13 @@ export default {
     :modules="modules"
     class="mySwiper"
     :slides-per-view="3"
-    :pagination="{ clickable: true }"
+    :breakpoints="breakpoints"
+    autoplay
   >
-
-      <SwiperSlide v-for="member in membersData">
-        <img class="rounded" :src="member.photoSrc" />
-        <p class="text-white h5">{{ member.subtitle }}</p>
-      </SwiperSlide>
+    <SwiperSlide v-for="member in membersData">
+      <img class="rounded" :src="member.photoSrc" />
+      <p class="text-white h5">{{ member.subtitle }}</p>
+    </SwiperSlide>
   </swiper>
 </template>
 
@@ -60,6 +76,6 @@ export default {
 .swiper-slide img:hover {
   transform: scale(1.1);
   border: 2px solid #0d6efd;
-
 }
 </style>
+

@@ -1,16 +1,11 @@
 <script>
-// Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
 
-// Import Swiper styles
 import "swiper/css";
 
 import "swiper/css/navigation";
 
-// import './style.css';
-
-// import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 
 import galleryData from "../data/galleryData.json";
 
@@ -19,9 +14,16 @@ export default {
     Swiper,
     SwiperSlide,
   },
+  data() {
+    return {
+      autoplayOpts: {
+        delay: 5000,
+      },
+    };
+  },
   setup() {
     return {
-      modules: [Navigation],
+      modules: [Navigation, Autoplay],
       galleryData,
     };
   },
@@ -29,30 +31,33 @@ export default {
 </script>
 
 <template>
-  <swiper :navigation="true" :modules="modules" class="mySwiper">
+  <swiper :modules="modules" class="mySwiper">
     <SwiperSlide v-for="item in galleryData">
-      <img class="rounded" :src="item.imgPath" />
-      <p class="mt-5 text-white">{{ item.date }}</p>
-      <h4 class="text-white">{{ item.title }}</h4>
+      <img class="rounded mb-0" :src="item.imgPath" />
+      <div
+        class="d-flex mx-auto justify-content-center align-items-center w-50"
+      >
+        <h4 class="my-auto mt-3 text-white">{{ item.title }}</h4>
+      </div>
     </SwiperSlide>
   </swiper>
 </template>
 
 <style scoped>
-.swiper{
+.swiper {
   width: 70vw;
 }
 
-img{
+img {
   margin: 30px 0;
-  width: 80%;
+  width: 60%;
   transition: 0.5s;
-  border: 2px solid #0d6efd;
+  border: none;
 }
 
-img:hover{
+img:hover {
   transform: scale(1.05);
-  border: 2px solid white;
-
+  border: none;
 }
 </style>
+
